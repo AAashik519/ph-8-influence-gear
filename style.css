@@ -276,10 +276,23 @@ main{
 
 
   @media screen and (max-width:990px) {
+   .banner{
+      flex-direction: column-reverse;
+   }
+   .banner-content{
+      max-width:100% ;
+      margin: 70px 0;
+   }
+   .banner-img{
+      max-width:100% ;
+   }
    .popular{  
        grid-template-columns: repeat(2, 1fr);  
   }
    
+  .feature-product{
+   flex-direction: column;
+  }
   .feature-product img{
    max-width:100%;
   
