@@ -241,7 +241,7 @@ main{
    max-width:100% ;
 }
 .banner-img{
-   
+   margin-top: 50px;
 }
 .banner-title{
    font-size: 32px;
@@ -251,7 +251,7 @@ main{
  
 
    .popular{  
-       grid-template-columns: repeat(1, 1fr);  
+       grid-template-columns:  1fr;  
   }
   .feature-product{
    flex-direction: column;
@@ -275,7 +275,7 @@ main{
 
 
 
-  @media screen and (min-width:576px) and(max-width:990px) {
+  @media screen and (min-width:577px) and (max-width:990px) {
    .banner{
       flex-direction: column-reverse;
    }
